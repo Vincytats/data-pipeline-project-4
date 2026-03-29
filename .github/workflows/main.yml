@@ -23,7 +23,7 @@ jobs:
         run: pip install pandas
 
       - name: Run pipeline
-        run: python scripts/pipeline_participants.py
+        run: python scripts/pipeline.py
 
       # 🔍 DEBUG (VERY IMPORTANT)
       - name: Check files
