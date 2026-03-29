@@ -28,9 +28,6 @@ jobs:
       - name: Run Monthly Stats Pipeline
         run: python scripts/pipeline.py
 
-      - name: Run Participant Pipeline
-        run: python scripts/pipeline_participants.py
-
       - name: Commit updated datasets
         run: |
           git config --global user.name "github-actions"
